@@ -26,7 +26,9 @@ public class Rfc865UdpClient {
 			 //
 			 // 2. Send UDP request to server
 			 //
-			InetAddress serverIpAddr = InetAddress.getByName("swlab2-c.scse.ntu.edu.sg");
+//			InetAddress serverIpAddr = InetAddress.getByName("swlab2-c.scse.ntu.edu.sg");
+			InetAddress serverIpAddr = InetAddress.getByName("SW2R2-14");
+
 			int port = 17;
 
 			String message = new String("Lim Ziyi Janesse, SSP6, 172.21.147.134");
@@ -51,8 +53,3 @@ public class Rfc865UdpClient {
 		socket.close();
 	}
 }
-
-
-Client Running..
-Not everything that can be counted counts, and not everything that counts can be counted - Albert Einstein.
-end
