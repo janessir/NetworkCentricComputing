@@ -38,6 +38,8 @@ public class Rfc865UdpServer {
 
 				 socket.send(reply);
 				 } catch (IOException e) {}
+			 
+			 	socket.close();
 			 }
 		 }
 
